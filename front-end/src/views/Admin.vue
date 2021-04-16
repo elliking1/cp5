@@ -1,21 +1,21 @@
 <template>
-  <div class="admin mainDirectory"> 
+  <div class="admin mainDirectory">
     <h1>Instructor Page</h1>
     <div class="heading">
       <h2>Add a Study Group</h2>
     </div>
-    <div class="add"> 
-      <div class="form"> 
+    <div class="add">
+      <div class="form">
         <input v-model="number" placeholder="Number" />
         <p></p>
         <input v-model="time" placeholder="Dates and Time" />
         <p></p>
         <button @click="upload"><a href="javascript:history.go(0)">Add</a></button>
       </div>
-      <div class="upload" v-if="addGroup"> 
+      <div class="upload" v-if="addGroup">
         <h2>{{ addGroup.number }}</h2>
       </div>
-    </div> 
+    </div>
     <br><br>
     <div class="heading">
       <h2>Delete a Study Group</h2>
@@ -29,13 +29,13 @@
           </tr>
         </tbody>
       </table>
-   <div class="admin mainDirectory"> 
+   <div class="admin mainDirectory">
      <div class="heading">
        <h2>Edit a Study Group</h2>
      </div>
-     <div class="form"> 
+     <div class="form">
        <input v-model="findTitle" placeholder="Group Number" />
-       <div class="suggestions" v-if="suggestions.length > 0"> 
+       <div class="suggestions" v-if="suggestions.length > 0">
          <div
            class="suggestion"
             v-for="s in suggestions"
@@ -45,7 +45,7 @@
             {{ s.number }}
          </div>
        </div>
-        <div class="upload" v-if="findGroup"> 
+        <div class="upload" v-if="findGroup">
         <input v-model="findGroup.number" />
         <p></p>
         <img :src="findGroup.path" />
@@ -53,8 +53,7 @@
       <div class="actions" v-if="findGroup">
         <button @click="editGroup(findGroup)">Edit</button>
       </div>
-  </div> 
-</div>
+  </div>
 </div>
 </template>
 
