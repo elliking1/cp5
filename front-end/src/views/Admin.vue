@@ -53,6 +53,7 @@
       <div class="actions" v-if="findGroup">
         <button @click="editGroup(findGroup)">Edit</button>
       </div>
+      </div>
   </div>
 </div>
 </template>
