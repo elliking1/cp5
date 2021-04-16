@@ -5,7 +5,7 @@ const users = require("./users.js");
 const User = users.model;
 const validUser = users.valid;
 const groups = require("./groups.js");
-const Group = groups.model;
+const Group = groups.Schema;
 
 // Create a model for contacts in the directory.
 const Student = mongoose.model('Student', studentSchema);
