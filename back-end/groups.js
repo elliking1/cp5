@@ -4,6 +4,8 @@ const router = express.Router();
 const users = require("./users.js");
 const User = users.model;
 const validUser = users.valid;
+const students = require("./students.js");
+const Student = students.model;
 
 // Create a scheme for study groups: a number and a time.
 const groupSchema = new mongoose.Schema({
