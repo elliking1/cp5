@@ -52,7 +52,7 @@
 
 <script>
 import axios from 'axios';
-import Admin from 'Admin.vue';
+import Admin from '../Admin.vue';
 export default {
   name: 'Home',
   data() {
