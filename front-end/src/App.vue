@@ -17,7 +17,7 @@
       <ul class="leadershipGroup">
         <li>Professor Daniel Zappala</li>
         <li>Email: zappala@cs.byu.edu</li>
-        <li><a href="https://discord.com/invite/77kYwfaHdE"><i class="fab fa-discord"></i></a></li>
+        <li><a href="https://discord.com/invite/77kYwfaHdE"><i class="fab fa-discord">></i></a></li>
       </ul>
       <h5>TA's</h5>
       <ul class="leadershipGroup">
