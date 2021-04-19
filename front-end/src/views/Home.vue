@@ -24,9 +24,9 @@
       <table class="table table-hover">
         <thead>
           <tr>
-            <th scope="col">Study Group # &emsp;</th>
-            <th scope="col">First Name &emsp;</th>
-            <th scope="col">Last Name &emsp;</th>
+            <th scope="col">Study Group #<p></th>
+            <th scope="col">First Name<p></th>
+            <th scope="col">Last Name<p></th>
             <th scope="col">Email</th>
             <th scope="col"> </th>
           </tr>
@@ -104,7 +104,7 @@ export default {
    padding-right: 1em;
 }
 
-
+p {text-indent: 5em;}
 
 #signup {
   margin-left: 100px;
