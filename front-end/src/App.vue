@@ -38,9 +38,9 @@
       </ul>
     </div>
   </div>
-    
+  <div id='stuff'>
   <router-view/>
-    
+  </div>
   <div id='footer'><a href='https://github.com/elliking1/cp5' target='_blank'><i class="fab fa-github"></i></a>
   This took me too many hours. I would estimate 5.</div>
  </div>
@@ -51,7 +51,6 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   font-size: 13pt;
-  margin: 0px 20px 150px 20px;
 }
 
 #header {
@@ -133,6 +132,10 @@ h3 {
    margin: 0px 0px;
    width: 100%;
    text-align: center;
+}
+
+#stuff {
+  margin: 0px 20px 150px 20px;
 }
 
 .pure-button-primary {
