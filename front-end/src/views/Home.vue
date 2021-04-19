@@ -92,3 +92,7 @@ export default {
   }
 }
 </script>
+
+<style>
+margin-top: 100px;
+</style>
