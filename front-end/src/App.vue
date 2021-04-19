@@ -131,7 +131,7 @@ h3 {
    bottom: 0;
    color: white;
    background-color: #EEB39A; 
-   z-index: 999;
+   margin: 0px 0px;
 }
 
 .pure-button-primary {
