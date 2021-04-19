@@ -24,9 +24,9 @@
       <table class="table table-hover">
         <thead>
           <tr>
-            <th scope="col">Study Group #<p></p></th>
-            <th scope="col">First Name<p></p></th>
-            <th scope="col">Last Name<p></p></th>
+            <th scope="col">Study Group #     </th>
+            <th scope="col">First Name      </th>
+            <th scope="col">Last Name     </th>
             <th scope="col">Email</th>
             <th scope="col"> </th>
           </tr>
