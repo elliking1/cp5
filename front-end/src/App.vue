@@ -126,6 +126,7 @@ h3 {
 
 #footer {
    font-size: 9pt;
+   margin-left: 100px;
 }
 
 .pure-button-primary {
