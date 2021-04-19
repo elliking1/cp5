@@ -106,8 +106,7 @@ export default {
         this.$root.$data.user = null;
       }
     },
-  }
-  async getGroups() {
+    async getGroups() {
       try {
         let response = await axios.get("/api/groups");
         this.groups = response.data;
@@ -158,7 +157,6 @@ export default {
         console.log(error);
       }
     },
-  },
 }
 
 </script>
