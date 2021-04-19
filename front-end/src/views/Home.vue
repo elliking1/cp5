@@ -33,9 +33,9 @@
         </thead>
       <tbody>
           <tr v-for="student in students" :key="student.id">
-            <th scope="row">{{student.groupNumber}}&nbsp;</th>
-            <td>{{student.lastName}}&nbsp;</td>
-            <td>{{student.firstName}}&nbsp;</td>
+            <th scope="row">{{student.groupNumber}}<span class="tab"></th>
+            <td>{{student.lastName}}<span class="tab"></td>
+            <td>{{student.firstName}}<span class="tab"></td>
             <td>{{student.email}}</td>
             <td><button v-on:click="deleteStudent(student)" class="delete">X</button></td>
           </tr>
@@ -102,6 +102,9 @@ export default {
    padding-top: 110px;
    margin-left: 100px;
    padding-right: 1em;
+}
+.tab {
+  padding-left: 2px;
 }
 
 #signup {
