@@ -16,7 +16,7 @@
       <ul class="leadershipGroup">
         <li>Professor Daniel Zappala</li>
         <li>Email: zappala@cs.byu.edu</li>
-        <li><a href="https://discord.com/invite/77kYwfaHdE">Discord Channel</a></li>
+        <li><a href="https://discord.com/invite/77kYwfaHdE"><i class="fab fa-discord"></i></a></li>
       </ul>
       <h5>TA's</h5>
       <ul class="leadershipGroup">
@@ -73,6 +73,28 @@ body {
   background: #E67A82;
   text-align: center;
   box-shadow: 0 0 0 1em #FFF;
+}
+
+.sidebarLeadership {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  left: 0;
+  background-color: #24595A; /* Black */
+  color: white;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.leadershipGroup {
+  display: block;
+  list-style-type: circle;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 20px;
 }
 
 nav {
