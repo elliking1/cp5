@@ -10,9 +10,7 @@
     </header>
     <router-view />
   <div id='footer'><a href='https://github.com/elliking1/cp5' target='_blank'><i class="fab fa-github"></i></a>
-  This took me too many hours. I would estimate 5.
-  </div>
-
+  This took me too many hours. I would estimate 5.</div>
  </div>
 </template>
 
@@ -30,7 +28,7 @@ body {
 
 #header {
   /* Semi-circle */
-  margin: 0 1em 5px 1em;
+  margin: 0 1em 50px 0;
   height: 100px;
   width: 200px;
   border-bottom-left-radius: 200px;
