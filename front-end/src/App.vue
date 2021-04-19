@@ -8,7 +8,6 @@
       </nav> 
     </header>
     <router-view />
-    
     <div id="directory-content">
     <div class="sidebarLeadership">
       <h3>Contact Information</h3>
@@ -37,9 +36,6 @@
       </ul>
     </div>
     </div>
-    
-    
-    
   <div id='footer'><a href='https://github.com/elliking1/cp5' target='_blank'><i class="fab fa-github"></i></a>
   This took me too many hours. I would estimate 5.</div>
  </div>
@@ -76,11 +72,10 @@ body {
 }
 
 .sidebarLeadership {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 250px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   left: 0;
-  background-color: #24595A; /* Black */
+  background-color: #24595A; 
   color: white;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
@@ -115,6 +110,10 @@ h2 {
   font-size: 25px;
   color: #fff;
   width: 50px;
+}
+
+#footer {
+   font-size: 5pt;
 }
 
 .pure-button-primary {
