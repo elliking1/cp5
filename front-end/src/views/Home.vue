@@ -1,5 +1,6 @@
 <template>
 <div class="home mainDirectory" >
+  <div id="info">
       <h2>Information</h2>
       These study groups are completely optional, but a great way to ensure 
       that you are retaining the information taught in class. Each study session 
@@ -8,6 +9,7 @@
       during the second week of the semester, you will be added to a discord group for 
       your study group number.
       <br><br>
+   </div>
       <h2>Sign up for a Group</h2>
       <div class="add">
         <input v-model="groupNumber" placeholder="Study Group Number">
@@ -94,5 +96,7 @@ export default {
 </script>
 
 <style>
-margin-top: 100px;
+#info {
+   margin-top: 100px;
+}
 </style>
