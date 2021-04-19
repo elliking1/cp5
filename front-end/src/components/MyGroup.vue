@@ -171,16 +171,6 @@ export default {
   font-size: 14px;
 }
 
-h1 {
-  color: #E67A82;
-  font-size: 30px;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-
 .main {
   padding-top: 110px;
    margin-left: 100px;
