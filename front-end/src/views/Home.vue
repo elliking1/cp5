@@ -98,7 +98,7 @@ export default {
 
 <style>
 #info {
-   padding-top: 100px;
-   margin-left: 250px;
+   padding-top: 110px;
+   margin-left: 200px;
 }
 </style>
