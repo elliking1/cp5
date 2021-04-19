@@ -10,6 +10,7 @@
       your study group number.
       <br><br>
    </div>
+   <div id="signup">
       <h2>Sign up for a Group</h2>
       <div class="add">
         <input v-model="groupNumber" placeholder="Study Group Number">
@@ -40,6 +41,7 @@
           </tr>
         </tbody>
       </table>
+   </div>
 </div>
 </template>
 
@@ -99,5 +101,11 @@ export default {
 #info {
    padding-top: 110px;
    margin-left: 100px;
+   padding-right: 1em;
+}
+
+#signup {
+  margin-left 100px;
+  padding-right: 1em;
 }
 </style>
