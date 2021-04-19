@@ -51,6 +51,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   font-size: 13pt;
+  margin: 0px 150px 20px 20px;
 }
 
 #header {
