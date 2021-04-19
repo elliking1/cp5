@@ -21,6 +21,11 @@
       </div>
       <br><br>
       <h2>Study Groups</h2>
+      <ul class="leadershipGroup">
+      <div v-for="group in groups" :key="group.id">
+         <li>Group {{group.number}}: {{group.days}} {{group.time}}</li>
+      </div>
+      </ul>
       <table class="table table-hover">
         <thead>
           <tr>
@@ -47,6 +52,7 @@
 
 <script>
 import axios from 'axios';
+import Admin from '../components/Uploader.vue';
 export default {
   name: 'Home',
   data() {
