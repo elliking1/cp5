@@ -129,8 +129,9 @@ h3 {
    width: 100%;
    position: absolute;
    bottom: 0;
-   color: #E67A82;
+   color: white;
    background-color: #EEB39A; 
+   z-index: 999;
 }
 
 .pure-button-primary {
