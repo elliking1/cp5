@@ -3,7 +3,7 @@
   <div class="heroBox">
     <form class="pure-form">
       <fieldset>
-        <legend>Register for an account</legend>
+        <legend>Register as a TA</legend>
         <input placeholder="first name" v-model="firstName">
         <input placeholder="last name" v-model="lastName">
       </fieldset>
@@ -18,7 +18,7 @@
     <p v-if="error" class="error">{{error}}</p>
     <form class="pure-form space-above">
       <fieldset>
-        <legend>Login</legend>
+        <legend>TA Login</legend>
         <input placeholder="username" v-model="usernameLogin">
         <input type="password" placeholder="password" v-model="passwordLogin">
       </fieldset>
