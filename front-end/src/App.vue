@@ -129,7 +129,7 @@ h3 {
    width: 100%;
    position: absolute;
    bottom: 0;
-   color: #EEB39A;
+   color: #E67A82;
    background-color: #EEB39A; 
 }
 
