@@ -45,6 +45,8 @@
   This took me too many hours. I would estimate 5.</div>
  </div>
 </template>
+
+<style>
 body {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
@@ -105,10 +107,16 @@ h1 {
 
 h2 {
   font-size: 12px;
+  color: #EEB39A;
 }
 
-h2, h4, h5 {color: #EEB39A;}
-h3 {color: #E67A82;}
+h4, h5 {
+  color: #EEB39A;
+  }
+  
+h3 {
+  color: #E67A82;
+  }
 
 #header .fas {
   font-size: 25px;
