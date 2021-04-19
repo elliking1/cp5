@@ -135,7 +135,8 @@ h3 {
 }
 
 #stuff {
-  padding-left: 250px;
+  padding-left: 200px;
+  padding-right: 20px;
 }
 
 .pure-button-primary {
