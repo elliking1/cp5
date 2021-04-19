@@ -1,5 +1,7 @@
 <template>
+
   <div id="app">
+  
     <header id="header">
       <h1>Study Groups</h1>
       <nav>
@@ -7,8 +9,8 @@
         <router-link to="/dashboard"><i class="fas fa-user"></i></router-link>
       </nav> 
     </header>
-    <router-view />
-    <div id="directory-content">
+    
+  <div id="directory-content">
     <div class="sidebarLeadership">
       <h3>Contact Information</h3>
       <h5>Instructor</h5>
@@ -30,12 +32,15 @@
       </ul>
       <h5>Study Group Sessions</h5>
       <ul class="leadershipGroup">
-      <div v-for="group in groups" :key="group.id">
-         <li>Group {{group.number}}: {{group.days}} {{group.time}}</li>
+        <div v-for="group in groups" :key="group.id">
+          <li>Group {{group.number}}: {{group.days}} {{group.time}}</li>
       </div>
       </ul>
     </div>
-    </div>
+  </div>
+    
+  <router-view/>
+    
   <div id='footer'><a href='https://github.com/elliking1/cp5' target='_blank'><i class="fab fa-github"></i></a>
   This took me too many hours. I would estimate 5.</div>
  </div>
