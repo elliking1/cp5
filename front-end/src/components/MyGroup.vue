@@ -41,7 +41,7 @@
        <h2>Edit a Study Group</h2>
      </div>
      <div class="form">
-       <input v-model="findTitle" placeholder="Group Number" />
+       <input v-model="findNumber" placeholder="Group Number" />
        <div class="suggestions" v-if="suggestions.length > 0">
          <div
            class="suggestion"
@@ -52,13 +52,13 @@
             {{ s.number }}
          </div>
        </div>
-        <div class="upload" v-if="findGroup">
-        <input v-model="findGroup.number" />
+        <div class="upload" v-if="findNumber">
+        <input v-model="findNumber.number" />
         <p></p>
-        <img :src="findGroup.path" />
+        <img :src="findNumber.path" />
       </div>
-      <div class="actions" v-if="findGroup">
-        <button @click="editGroup(findGroup)">Edit</button>
+      <div class="actions" v-if="findNumber">
+        <button @click="editGroup(findNumber)">Edit</button>
       </div>
       </div>
   </div>
