@@ -6,13 +6,13 @@
         <router-link to="/"><i class="fas fa-home"></i></router-link>
         <router-link to="/dashboard"><i class="fas fa-user"></i></router-link>
       </nav>
+      
     </header>
     <router-view />
   <div id='footer'><a href='https://github.com/elliking1/cp5' target='_blank'><i class="fab fa-github"></i></a>
-  Too many hours. Like 5.
+  This took me too many hours. I would estimate 5.
   </div>
-  <br>
-  Too many hours. Like 5.
+
  </div>
 </template>
 
@@ -30,7 +30,7 @@ body {
 
 #header {
   /* Semi-circle */
-  margin: 0 1em 1em 0;
+  margin: 0 1em 5px 1em;
   height: 100px;
   width: 200px;
   border-bottom-left-radius: 200px;
