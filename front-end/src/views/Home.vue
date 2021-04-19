@@ -33,9 +33,9 @@
         </thead>
       <tbody>
           <tr v-for="student in students" :key="student.id">
-            <th scope="row">{{student.groupNumber}}this is a test</th>
-            <td>{{student.lastName}}</td>
-            <td>{{student.firstName}}</td>
+            <th scope="row">{{student.groupNumber}}</th><br>
+            <td>{{student.lastName}}</td><br>
+            <td>{{student.firstName}}</td><br>
             <td>{{student.email}}</td>
             <td><button v-on:click="deleteStudent(student)" class="delete">X</button></td>
           </tr>
