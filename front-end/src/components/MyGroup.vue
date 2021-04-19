@@ -3,10 +3,10 @@
   <div class="menu">
     <p></p>
     <h2>{{user.firstName}} {{user.lastName}} <a @click="logout"><i class="fas fa-sign-out-alt"></i></a></h2>
-    <uploader :show="show" @close="close" @uploadFinished="uploadFinished" />
+    
  </div>
   
- 
+   <uploader :show="show" @close="close" @uploadFinished="uploadFinished" />
   
 </div>
 </template>
