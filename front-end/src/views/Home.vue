@@ -98,6 +98,6 @@ export default {
 <style>
 #info {
    padding-top: 110px;
-   margin-left: 150px;
+   margin-left: 50px;
 }
 </style>
