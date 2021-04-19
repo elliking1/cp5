@@ -47,7 +47,7 @@
 
 <script>
 import axios from 'axios';
-import MyGroup from 'components/MyGroup.vue';
+import MyGroup from '/components/MyGroup.vue';
 </script>
 
 
