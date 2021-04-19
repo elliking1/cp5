@@ -45,6 +45,12 @@
  </div>
 </template>
 
+<script>
+import axios from 'axios';
+import MyGroup from 'components/MyGroup.vue';
+</script>
+
+
 <style>
 body {
   font-family: 'Work Sans', sans-serif;
