@@ -77,9 +77,11 @@ body {
 }
 
 .sidebarLeadership {
+  height: 100%;
   width: 250px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   left: 0;
+  top: 100px;
   background-color: #24595A; 
   color: white;
   overflow-x: hidden; /* Disable horizontal scroll */
