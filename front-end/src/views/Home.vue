@@ -105,7 +105,7 @@ export default {
 }
 
 #signup {
-  margin-left 100px;
+  margin-left: 100px;
   padding-right: 1em;
 }
 </style>
