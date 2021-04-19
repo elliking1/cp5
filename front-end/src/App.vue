@@ -113,7 +113,7 @@ h2 {
 }
 
 #footer {
-   font-size: 5pt;
+   font-size: 9pt;
 }
 
 .pure-button-primary {
