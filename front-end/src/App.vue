@@ -59,7 +59,7 @@ body {
 
 #header {
   /* Semi-circle */
-  margin: 0 1em 50px 0;
+  margin: 0 1em 1em 0;
   height: 100px;
   width: 200px;
   border-bottom-left-radius: 200px;
