@@ -45,12 +45,6 @@
   This took me too many hours. I would estimate 5.</div>
  </div>
 </template>
-
-<style>
-/* Color scheme: https://paletton.com/#uid=7040u0knHs+edG7jrvYscpiuCk2 */
-/* red: #e74c3c
- * blue: #277E8E
- */
 body {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
@@ -112,6 +106,9 @@ h1 {
 h2 {
   font-size: 12px;
 }
+
+h2, h4, h5 {color: #EEB39A;}
+h3 {color: #E67A82;}
 
 #header .fas {
   font-size: 25px;
