@@ -24,18 +24,18 @@
       <table class="table table-hover">
         <thead>
           <tr>
-            <th scope="col">Study Group #</th>
-            <th scope="col">First Name</th>
-            <th scope="col">Last Name</th>
+            <th scope="col">Study Group # &emsp;</th>
+            <th scope="col">First Name &emsp;</th>
+            <th scope="col">Last Name &emsp;</th>
             <th scope="col">Email</th>
             <th scope="col"> </th>
           </tr>
         </thead>
       <tbody>
           <tr v-for="student in students" :key="student.id">
-            <th scope="row">{{student.groupNumber}}</th><br>
-            <td>{{student.lastName}}</td><br>
-            <td>{{student.firstName}}</td><br>
+            <th scope="row">{{student.groupNumber}}</th>
+            <td>{{student.lastName}}</td>
+            <td>{{student.firstName}}</td>
             <td>{{student.email}}</td>
             <td><button v-on:click="deleteStudent(student)" class="delete">X</button></td>
           </tr>
