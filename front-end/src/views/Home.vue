@@ -52,10 +52,10 @@ export default {
   data() {
     return {
      students: [],
-     groupNumber = "";
-     lastName = "";
-     firstName = "";
-     email = "";
+     groupNumber = "",
+     lastName = "",
+     firstName = "",
+     email = "",
    }
   },
   created() {
