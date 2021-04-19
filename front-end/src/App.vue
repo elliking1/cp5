@@ -5,10 +5,41 @@
       <nav>
         <router-link to="/"><i class="fas fa-home"></i></router-link>
         <router-link to="/dashboard"><i class="fas fa-user"></i></router-link>
-      </nav>
-      
+      </nav> 
     </header>
     <router-view />
+    
+    <div id="directory-content">
+    <div class="sidebarLeadership">
+      <h3>Contact Information</h3>
+      <h5>Instructor</h5>
+      <ul class="leadershipGroup">
+        <li>Professor Daniel Zappala</li>
+        <li>Email: zappala@cs.byu.edu</li>
+        <li><a href="https://discord.com/invite/77kYwfaHdE">Discord Channel</a></li>
+      </ul>
+      <h5>TA's</h5>
+      <ul class="leadershipGroup">
+        <li>Kathryn Gates</li>
+        <li>Warda Usman</li>
+        <li>Parker Nichols</li>
+        <li>Conner Mattson</li>
+        <li>Madeline Bisel</li>
+        <li>James Conners</li>
+        <li>Andy Smith</li>
+        <li>Zach Eliason</li>
+      </ul>
+      <h5>Study Group Sessions</h5>
+      <ul class="leadershipGroup">
+      <div v-for="group in groups" :key="group.id">
+         <li>Group {{group.number}}: {{group.days}} {{group.time}}</li>
+      </div>
+      </ul>
+    </div>
+    </div>
+    
+    
+    
   <div id='footer'><a href='https://github.com/elliking1/cp5' target='_blank'><i class="fab fa-github"></i></a>
   This took me too many hours. I would estimate 5.</div>
  </div>
