@@ -51,7 +51,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   font-size: 13pt;
-  margin: 0px 200px;
+  margin: 0px 0px;
 }
 
 #header {
@@ -131,6 +131,7 @@ h3 {
    color: white;
    background-color: #EEB39A; 
    margin: 0px 0px;
+   width: 100%;
 }
 
 .pure-button-primary {
