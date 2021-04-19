@@ -125,9 +125,8 @@ h3 {
 }
 
 #footer {
-   font-size: 9pt;
+   font-size: 13pt;
    width: 100%;
-   margin-left: 100px;
    position: absolute;
    bottom: 0;
    color: #EEB39A;
