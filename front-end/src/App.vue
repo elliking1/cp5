@@ -126,7 +126,6 @@ h3 {
 
 #footer {
    font-size: 13pt;
-   width: 100%;
    position: absolute;
    bottom: 0;
    color: white;
