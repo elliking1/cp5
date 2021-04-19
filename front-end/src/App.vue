@@ -31,6 +31,7 @@
       </ul>
     </div>
   </div>
+  
   <div id='stuff'>
   <router-view/>
   </div>
