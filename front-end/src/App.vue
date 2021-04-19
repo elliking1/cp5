@@ -29,12 +29,6 @@
         <li>Andy Smith</li>
         <li>Zach Eliason</li>
       </ul>
-      <h5>Study Group Sessions</h5>
-      <ul class="leadershipGroup">
-        <div v-for="group in groups" :key="group.id">
-          <li>Group {{group.number}}: {{group.days}} {{group.time}}</li>
-      </div>
-      </ul>
     </div>
   </div>
   <div id='stuff'>
@@ -44,11 +38,6 @@
   This took me too many hours. I would estimate 5.</div>
  </div>
 </template>
-
-<script>
-import axios from 'axios';
-import MyGroup from '/components/MyGroup.vue';
-</script>
 
 
 <style>
