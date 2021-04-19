@@ -104,7 +104,7 @@ export default {
    padding-right: 1em;
 }
 .tab {
-  padding-left: 2px;
+  padding-left: 5px;
 }
 
 #signup {
