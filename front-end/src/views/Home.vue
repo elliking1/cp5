@@ -8,7 +8,6 @@
       be given to students who maintain at least 80% attendance in a study group. Sometime 
       during the second week of the semester, you will be added to a discord group for 
       your study group number.
-      I am a dummy girl.
       <br><br>
    </div>
       <h2>Sign up for a Group</h2>
@@ -99,6 +98,6 @@ export default {
 <style>
 #info {
    padding-top: 110px;
-   margin-left: 200px;
+   margin-left: 150px;
 }
 </style>
