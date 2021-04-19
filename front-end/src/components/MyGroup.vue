@@ -171,5 +171,10 @@ export default {
   font-size: 14px;
 }
 
+.main {
+  padding-top: 110px;
+   margin-left: 100px;
+   padding-right: 1em;
+}
 
 </style>
