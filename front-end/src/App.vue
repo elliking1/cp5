@@ -8,11 +8,12 @@
       </nav>
     </header>
     <router-view />
-   </div>
-  <div id='footer'><a href='https://github.com/elliking1/cp5' target='_blank'><i class="fab fa-github"></i></a></div>
+  <div id='footer'><a href='https://github.com/elliking1/cp5' target='_blank'><i class="fab fa-github"></i></a>
   Too many hours. Like 5.
-</div>
   </div>
+  <br>
+  Too many hours. Like 5.
+ </div>
 </template>
 
 <style>
