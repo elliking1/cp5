@@ -8,6 +8,7 @@ const validUser = users.valid;
 
 const students = require("./students.js");
 const Student = students.model;
+const validStudent = student.valid;
 
 // Create a scheme for study groups: a number and a time.
 const groupSchema = new mongoose.Schema({
@@ -70,3 +71,9 @@ app.put('/api/groups/:id', async (req, res) => {
     res.sendStatus(500);
   }
 });
+
+module.exports = {
+  routes: router,
+  model: Student,
+  valid: validStudent
+};
