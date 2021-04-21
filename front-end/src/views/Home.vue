@@ -52,7 +52,6 @@
 
 <script>
 import axios from 'axios';
-import Admin from '../components/Uploader.vue';
 export default {
   name: 'Home',
   data() {
@@ -62,12 +61,23 @@ export default {
      lastName: "",
      firstName: "",
      email: "",
+     groups: [],
    }
   },
   created() {
     this.getStudents();
+    this.getGroups();
   },
   methods: {
+    async getGroups() {
+      try { 
+        let response = await axios.get("/api/groups");
+        this.groups = response.data;
+        return true;
+      } catch (error) {
+        console.log(error);
+      }
+    },
     async getStudents() {
       try {
         let response = await axios.get("/api/students");

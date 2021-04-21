@@ -21,7 +21,7 @@ const Group = mongoose.model('Group', groupSchema);
 
 
 // Create a new group: takes a number and a time.
-router.post('/api/groups', async (req, res) => {
+router.post('/', async (req, res) => {
   const group = new Group({
     number: req.body.number,
     days: req.body.days,
@@ -37,7 +37,7 @@ router.post('/api/groups', async (req, res) => {
 });
 
 // Get a list of all of the study goups.
-router.get('/api/groups', async (req, res) => {
+router.get('/', async (req, res) => {
   try {
     let groups = await Group.find();
     res.send(groups);
@@ -47,7 +47,7 @@ router.get('/api/groups', async (req, res) => {
   }
 });
 
-router.delete('/api/groups/:id', async (req, res) => {
+router.delete('/:id', async (req, res) => {
   try {
     await Group.deleteOne({ _id: req.params.id });
     res.sendStatus(200);
@@ -57,7 +57,7 @@ router.delete('/api/groups/:id', async (req, res) => {
   }
 });
 
-router.put('/api/groups/:id', async (req, res) => {
+router.put('/:id', async (req, res) => {
   try {
     let group = await Group.findOne({ _id: req.params.id });
     group.number = req.body.number;

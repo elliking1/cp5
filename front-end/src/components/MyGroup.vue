@@ -41,7 +41,7 @@
        <h2>Edit a Study Group</h2>
      </div>
      <div class="form">
-       <input v-model="findNumber" placeholder="Group Number" />
+       <input v-model="findGroup" placeholder="Group Number" />
        <div class="suggestions" v-if="suggestions.length > 0">
          <div
            class="suggestion"
@@ -52,13 +52,13 @@
             {{ s.number }}
          </div>
        </div>
-        <div class="upload" v-if="findNumber">
-        <input v-model="findNumber.number" />
+        <div class="upload" v-if="findGroup">
+        <input v-model="findGroup.number" />
         <p></p>
-        <img :src="findNumber.path" />
+        <img :src="findGroup.path" />
       </div>
-      <div class="actions" v-if="findNumber">
-        <button @click="editGroup(findNumber)">Edit</button>
+      <div class="actions" v-if="findGroup">
+        <button @click="editGroup(findGroup)">Edit</button>
       </div>
       </div>
   </div>
@@ -79,7 +79,7 @@ export default {
       file: null,
       addGroup: null,
       groups: [],
-      findNumber: "",
+      findGroup: "",
       findTime: null,
     };
   },
@@ -91,7 +91,7 @@ export default {
       return this.$root.$data.user;
     },
     suggestions() {
-      let groups = this.groups.filter((group) =>
+      let groups = this.groups.filter(group =>
         group.number.toLowerCase().startsWith(this.findGroup.toLowerCase())
       );
       return groups.sort((a, b) => a.number > b.number);
@@ -110,6 +110,7 @@ export default {
       try {
         let response = await axios.get("/api/groups");
         this.groups = response.data;
+        console.log(this.groups);
         return true;
       } catch (error) {
         console.log(error);
