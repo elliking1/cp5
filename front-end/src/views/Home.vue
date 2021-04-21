@@ -137,5 +137,6 @@ th, td {
 
 #display {
   color: black;
+  background-color: black;
 }
 </style>
