@@ -36,7 +36,7 @@
   <router-view/>
   </div>
   <div id='footer'><a href='https://github.com/elliking1/cp5' target='_blank'><i class="fab fa-github"></i></a>
-  This took me too many hours. I would estimate 5.</div>
+  This took me too many hours. I would estimate 15.</div>
  </div>
 </template>
 
