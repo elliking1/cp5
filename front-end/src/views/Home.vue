@@ -36,15 +36,17 @@
             <th scope="col"> </th>
           </tr>
         </thead>
+      <div id="display">
       <tbody>
           <tr v-for="student in students" :key="student.id">
             <th scope="row">{{student.groupNumber}}</th>
-            <td>{{student.lastName}}</td>
             <td>{{student.firstName}}</td>
+            <td>{{student.lastName}}</td>
             <td>{{student.email}}</td>
             <td><button v-on:click="deleteStudent(student)" class="delete">X</button></td>
           </tr>
         </tbody>
+      </div>
       </table>
    </div>
 </div>
@@ -131,5 +133,9 @@ th, td {
 #signup {
   margin-left: 100px;
   padding-right: 1em;
+}
+
+#display {
+  color: black;
 }
 </style>
