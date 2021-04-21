@@ -8,6 +8,7 @@ const validUser = users.valid;
 
 const groups = require("./groups.js");
 const Group = groups.Schema;
+const validGroup = groups.valid;
 
 // Create a model for contacts in the directory.
 const Student = mongoose.model('Student', studentSchema);
@@ -51,3 +52,9 @@ app.delete('/api/students/:id', async (req, res) => {
     res.sendStatus(500);
   }
 });
+
+module.exports = {
+  routes: router,
+  model: Student,
+  valid: validStudent
+};
