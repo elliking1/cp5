@@ -7,7 +7,7 @@
       will have at least one TA in attendance to answer questions. Extra credit will
       be given to students who maintain at least 80% attendance in a study group. Sometime 
       during the second week of the semester, you will be added to a discord group for 
-      your study group number.
+      your study group number. Please email a TA in order to update your group preference.
       <br><br>
    </div>
    <div id="signup">
@@ -36,8 +36,7 @@
             <th scope="col"> </th>
           </tr>
         </thead>
-      <div id="display">
-      <tbody>
+      <tbody style="color:black;">
           <tr v-for="student in students" :key="student.id">
             <th scope="row">{{student.groupNumber}}</th>
             <td>{{student.firstName}}</td>
@@ -46,7 +45,6 @@
             <td><button v-on:click="deleteStudent(student)" class="delete">X</button></td>
           </tr>
         </tbody>
-      </div>
       </table>
    </div>
 </div>
