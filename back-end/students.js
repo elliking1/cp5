@@ -14,7 +14,7 @@ const Group = groups.Schema;
 const Student = mongoose.model('Student', studentSchema);
 
 // Create a new contact in the directory.
-app.post('/api/students', async (req, res) => {
+router.post('/api/students', async (req, res) => {
   const student = new Student({
     groupNumber: req.body.groupNumber,
     lastName: req.body.lastName,
@@ -31,7 +31,7 @@ app.post('/api/students', async (req, res) => {
 });
 
 // Get a list of all of the items in the museum.
-app.get('/api/students', async (req, res) => {
+router.get('/api/students', async (req, res) => {
   try {
     let students = await Student.find();
     res.send(students);
@@ -41,7 +41,7 @@ app.get('/api/students', async (req, res) => {
   }
 });
 
-app.delete('/api/students/:id', async (req, res) => {
+router.delete('/api/students/:id', async (req, res) => {
   try {
     await Student.deleteOne({
       _id: req.params.id
