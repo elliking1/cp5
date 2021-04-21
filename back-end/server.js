@@ -36,7 +36,7 @@ const users = require("./users.js");
 app.use("/api/users", users.routes);
 
 const students = require("./students.js");
-app.use ("/api/students", students.routers);
+app.use ("/api/students", students.routes);
 
 const groups = require("./groups.js");
 app.use ("/api/groups", groups.routes);
