@@ -73,5 +73,5 @@ app.put('/api/groups/:id', async (req, res) => {
 
 module.exports = {
   routes: router,
-  model: Student,
+  model: Group,
 };
