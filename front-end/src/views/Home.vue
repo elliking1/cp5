@@ -132,9 +132,4 @@ th, td {
   margin-left: 100px;
   padding-right: 1em;
 }
-
-#display {
-  color: black;
-  background-color: black;
-}
 </style>
